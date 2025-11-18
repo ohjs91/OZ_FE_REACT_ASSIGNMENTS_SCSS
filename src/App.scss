@@ -9,6 +9,8 @@
   font-weight: $weight;
 }
 
+$color-yellow: #d7fa00;
+
 .header-container {
   //   display: flex;
   //   justify-content: space-between;
@@ -51,8 +53,8 @@ section {
   }
   span {
     @include font(12px);
-    color: #d7fa00;
-    border: 1px solid #d7fa00;
+    color: $color-yellow;
+    border: 1px solid $color-yellow;
     padding: 4px 5px;
     border-radius: 3px;
   }
